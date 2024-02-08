@@ -3,7 +3,7 @@ import { MoreHorizontal } from "react-feather";
 import Card from "../Card/Card";
 import Dropdown from "../Dropdown/Dropdown";
 import CustomInput from "../CustomInput/CustomInput";
-import { useAppState } from '../../Hooks1/useAppState';
+import { useAppState } from '../../Hooks/useAppState';
 
 // Importing styled components as a single object
 import * as Styled from "./List.styles";
