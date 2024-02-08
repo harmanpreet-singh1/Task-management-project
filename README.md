@@ -6,10 +6,10 @@ It utilizes a system of boards, lists, and cards to represent tasks and their st
 ## Folder Architecture
 ![Product_folder_arch](https://github.com/harman6666/trello-board-instaPro/assets/16717382/f0f21d3f-b81c-4525-bc28-cef5ffae54ff)
 
-## Screenshots
+## Screenshots and Video
 ![Overall_view_of_trello](https://github.com/harman6666/trello-board-instaPro/assets/16717382/0bda26f1-0c5f-4219-81e1-cc026a0e8a63)
-![Modal_open_with_task_checked](https://github.com/harman6666/trello-board-instaPro/assets/16717382/3789ca27-66d2-49d3-b200-f46317591f18)
 ![Dragging_component](https://github.com/harman6666/trello-board-instaPro/assets/16717382/925f8d73-ade4-4f8d-872c-acf54b7bae7e)
+
 
 ## Technologies used 🛠️
 - **React JS**
