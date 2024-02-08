@@ -26,7 +26,7 @@ export const ApiMockResponse: IList[] = [
       },
       {
         id: 1651319568365.593,
-        title: "Create contant files",
+        title: "Create constant files",
         labels: [{ color: "#1ebffu", text: "Constant" }],
         date: "",
         tasks: [],
@@ -34,7 +34,7 @@ export const ApiMockResponse: IList[] = [
       },
       {
         id: 1651319568365.593,
-        title: "Integrate chat GPT",
+        title: "Integrate chat GPT (Extra)",
         labels: [{ color: "#1ebffu", text: "Chat GPT" }],
         date: "",
         tasks: [],
@@ -46,17 +46,6 @@ export const ApiMockResponse: IList[] = [
     id: 1651319523126.113,
     title: "In Progress",
     cards: [
-      {
-        id: 1651319672685.5078,
-        title: "Convert all CSS files to CSS-In-JS",
-        labels: [{ color: "#9975bd", text: "Database" }],
-        date: "",
-        tasks: [
-          { id: 1651319820151.9648, completed: true, text: "Converted few files" },
-          { id: 1651319833752.3252, completed: false, text: "Pending few" },
-        ],
-        desc: "This is just to show case the skills in Both CSS-in-JS and normal css."
-      },
       {
         id: 16513196723785.5078,
         title: "Drag-Drop should work with the whole list",
@@ -95,7 +84,7 @@ export const ApiMockResponse: IList[] = [
         id: 1651319680948.0479,
         title: "Add and label columns",
         labels: [{ color: "#9975bd", text: "Columns" }],
-        date: "2022-05-04",
+        date: "2022-02-08",
         tasks: [
           { id: 1651319820180.9648, completed: true, text: "Add columns" },
           { id: 1651319833779.3252, completed: true, text: "Remove columns" },
@@ -106,7 +95,7 @@ export const ApiMockResponse: IList[] = [
         id: 165132424248.0479,
         title: "Add and edit cards",
         labels: [{ color: "#1ebffa", text: "Cards" }],
-        date: "2022-05-04",
+        date: "2022-02-08",
         tasks: [
           { id: 1651319820180.9648, completed: true, text: "Add Cards" },
           { id: 1651319833779.3252, completed: true, text: "Edit Cards" },
@@ -116,7 +105,7 @@ export const ApiMockResponse: IList[] = [
         id: 165131323133.0479,
         title: "Move cards between columns",
         labels: [{ color: "#9975bd", text: "Columns" }],
-        date: "2022-05-04",
+        date: "2022-02-08",
         tasks: [
           { id: 1651319820180.9648, completed: true, text: "Move cards within the same list" },
           { id: 1651319833779.3252, completed: true, text: "Move card in any other list" },
@@ -127,7 +116,7 @@ export const ApiMockResponse: IList[] = [
         id: 1651319642211.0479,
         title: "interactions are intuitive",
         labels: [{ color: "#1ebffa", text: "Interaction" }],
-        date: "2022-05-04",
+        date: "2022-02-08",
         tasks: [
           { id: 1651319820180.9648, completed: true, text: "Cards are draggable" },
           { id: 1651319833779.3252, completed: true, text: "User can see the card moving" },
@@ -137,7 +126,7 @@ export const ApiMockResponse: IList[] = [
         id: 1651312424242.0479,
         title: "Local storage get/set",
         labels: [{ color: "#cf61a1", text: "LocalStorage" }],
-        date: "2022-05-04",
+        date: "2022-02-08",
         tasks: [
           { id: 1651319820180.9648, completed: true, text: "Local storage set" },
           { id: 1651319833779.3252, completed: true, text: "Local storage get" },
