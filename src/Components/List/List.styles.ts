@@ -11,7 +11,7 @@ const ListContainer = styled.li`
 `;
 
 const ListInner = styled.div`
-  background-color: rgb(223 227 230 / 55%);
+  background-color: #ebecf0;
   padding: 8px;
   border-radius: 5px;
 `;
@@ -58,7 +58,6 @@ const ListDropdownItem = styled.p`
 `;
 
 const ListCards = styled.ul`
-  background-color: #f8f8f8;
   padding: 10px;
   border-radius: 5px;
   display: flex;
