@@ -38,7 +38,7 @@ export const ApiMockResponse: IList[] = [
         labels: [{ color: "#8da324", text: "Testing" }],
         date: "",
         tasks: [],
-        desc: "Unit testing is very important in terms of the maintanibility of the code."
+        desc: "Unit testing is very important in terms of the maintainability of the code."
       },
     ],
   },
@@ -60,7 +60,7 @@ export const ApiMockResponse: IList[] = [
         labels: [{ color: "#1ebffa", text: "Frontend" }],
         date: "",
         tasks: [],
-        desc: "Accessibility is important and shoudl be implimented across the application."
+        desc: "Accessibility is important and should be implemented across the application. Currently, I use all the semantic tags but we can do more like aria-roles, titles, roles, etc."
       },
     ],
   },
