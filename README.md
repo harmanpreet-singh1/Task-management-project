@@ -1,4 +1,4 @@
-<img width="1724" alt="Screenshot 2024-02-08 at 7 55 32 PM" src="https://github.com/harman6666/trello-board-instaPro/assets/16717382/dde7fd7e-153a-41fb-85ee-9336b63e8805"># Trello Board Project
+# Trello Board Project
 
 This project is a Trello board implementation built using React JS and TypeScript. It allows users to use the board with customizable columns and cards, manage tasks, and collaborate efficiently.
 It utilizes a system of boards, lists, and cards to represent tasks and their status within a project.
