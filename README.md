@@ -8,7 +8,9 @@ It utilizes a system of boards, lists, and cards to represent tasks and their st
 
 ## Screenshots and Video
 ![Overall_view_of_trello](https://github.com/harman6666/trello-board-instaPro/assets/16717382/0bda26f1-0c5f-4219-81e1-cc026a0e8a63)
-![Dragging_component](https://github.com/harman6666/trello-board-instaPro/assets/16717382/925f8d73-ade4-4f8d-872c-acf54b7bae7e)
+
+https://github.com/harman6666/trello-board-instaPro/assets/16717382/913684c7-8e9a-4a1e-9d36-fa48a429cc53
+
 
 
 ## Technologies used 🛠️
@@ -19,7 +21,7 @@ It utilizes a system of boards, lists, and cards to represent tasks and their st
 - **HTML Drag and Drop:** Leveraged for implementing drag-and-drop functionality. Not used any external library.
 - **CSS-in-JSS:** Styling solution for writing CSS directly in JavaScript files.
 
-### Components of a Trello Board
+## Components of a Trello Board
 1. **Boards**: A board is a top-level container representing a project or a specific task. Each board contains lists and cards related to that project. For now, we have just one board to see the details but more can be added later with some changes in the code.
 2. **Lists**: Lists are vertical columns within a board that represent different stages or categories of tasks. For example, lists could represent stages like "To Do", "In Progress", "Testing", and "Done".
 3. **Cards**: Cards are individual tasks or items within lists. They can contain information such as task descriptions, due dates, labels, attachments, and comments. Cards can be moved between lists to represent changes in their status or progress.
