@@ -203,6 +203,7 @@ function CardInfo(props: CardInfoProps) {
               text="Add Label"
               placeholder="Enter label text"
               displayClass={"card-modal-label-button"}
+              resetVal={true}
               isInputElement={true}
               inputType={"button"}
               onSubmit={(value: string) =>
