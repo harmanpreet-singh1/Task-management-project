@@ -4,7 +4,7 @@ This project is a Trello board implementation built using React JS and TypeScrip
 It utilizes a system of boards, lists, and cards to represent tasks and their status within a project.
 
 ## Folder Architecture
-<img width="1722" alt="Screenshot 2024-02-08 at 2 53 56 PM" src="https://github.com/harman6666/trello-board-instaPro/assets/16717382/f0f21d3f-b81c-4525-bc28-cef5ffae54ff">
+<img width="900" alt="Screenshot 2024-02-08 at 2 53 56 PM" src="https://github.com/harman6666/trello-board-instaPro/assets/16717382/f0f21d3f-b81c-4525-bc28-cef5ffae54ff">
 
 ## Screenshots and Video
 <img width="1722" alt="Screenshot 2024-02-08 at 2 53 56 PM" src="https://github.com/harman6666/trello-board-instaPro/assets/16717382/11193726-10ae-46b9-b82f-c37c214d8b6f">
