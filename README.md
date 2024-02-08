@@ -8,10 +8,8 @@ It utilizes a system of boards, lists, and cards to represent tasks and their st
 
 ## Screenshots
 ![Overall_view_of_trello](https://github.com/harman6666/trello-board-instaPro/assets/16717382/0bda26f1-0c5f-4219-81e1-cc026a0e8a63)
-![Modal_open](https://github.com/harman6666/trello-board-instaPro/assets/16717382/8cd1e10b-f1ac-437c-9cb4-a9127f11c4ca)
 ![Modal_open_with_task_checked](https://github.com/harman6666/trello-board-instaPro/assets/16717382/3789ca27-66d2-49d3-b200-f46317591f18)
 ![Dragging_component](https://github.com/harman6666/trello-board-instaPro/assets/16717382/925f8d73-ade4-4f8d-872c-acf54b7bae7e)
-![Adding_new_board](https://github.com/harman6666/trello-board-instaPro/assets/16717382/1747fbf8-bfaa-4b5f-a0ef-560bdeb63509)
 
 ## Technologies used 🛠️
 - **React JS**
