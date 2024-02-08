@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { MoreHorizontal } from "react-feather";
 import Card from "../Card/Card";
 import Dropdown from "../Dropdown/Dropdown";
@@ -33,15 +33,18 @@ function List(props: ListProps) {
         <Styled.ListHeader>
           <Styled.ListHeaderTitle>
             {/* Input field for list title */}
-            <CustomInput
-              defaultValue={list?.title}
-              text={list?.title}
-              placeholder={"Enter Title"}
-              displayClass={"list-header-text"}
-              DisplayHtmlElementName={"h2"}
-              onSubmit={(title) => dispatch({ type: 'UPDATE_LIST_TITLE', payload: {boardId: list?.id, title} })}
-              showAddButton={false}
-            />
+            <Styled.ListHeaderTitleButton>
+              <CustomInput
+                defaultValue={list?.title}
+                text={list?.title}
+                placeholder={"Enter Title"}
+                displayClass={"list-header-text"}
+                DisplayHtmlElementName={"h2"}
+                elementRole={"textbox"}
+                onSubmit={(title) => dispatch({ type: 'UPDATE_LIST_TITLE', payload: {boardId: list?.id, title} })}
+                showAddButton={false}
+              />
+            </Styled.ListHeaderTitleButton>
             {/* Displaying number of cards in the list */}
             <span className="list-card-number">{list?.cards?.length || 0}</span>
           </Styled.ListHeaderTitle>
@@ -80,7 +83,7 @@ function List(props: ListProps) {
             ))}
           </Styled.ListCards>
         ) : null}
-        <div>
+        <Styled.AddCardComponent>
           {/* Input field to add a new card */}
           <CustomInput
             text="+ Add Card"
@@ -88,9 +91,11 @@ function List(props: ListProps) {
             displayClass="list-add-card"
             editClass="list-add-card-edit"
             resetVal={true}
+            isInputElement={true}
+            inputType={"button"}
             onSubmit={(value: string) => dispatch({ type: 'ADD_CARD', payload: {id: list?.id, value} })}
           />
-        </div>
+        </Styled.AddCardComponent>
       </Styled.ListInner>
     </Styled.ListContainer>
   );

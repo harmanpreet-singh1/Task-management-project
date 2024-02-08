@@ -73,7 +73,7 @@ const AppBoardsContainer = styled.main`
 `;
 
 // Styling for app boards
-const AppBoards = styled.div`
+const AppBoards = styled.ul`
   width: fit-content;
   padding: 0px 30px;
   display: inline-flex;
@@ -85,6 +85,26 @@ const AppBoards = styled.div`
 const AppBoardsLast = styled.div`
   flex-basis: 280px;
   min-width: 280px;
+  .app-boards-add-board {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    text-align: center;
+    padding: 10px 12px;
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+  .app-boards-add-board-edit {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+  }
 `;
 
 export {

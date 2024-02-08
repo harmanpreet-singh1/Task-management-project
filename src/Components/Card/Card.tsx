@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { AlignLeft, CheckSquare, Clock, MoreHorizontal } from "react-feather";
 import { useAppState } from '../../Hooks/useAppState';
 import { formatDate } from "../../Helper/Util";
@@ -76,12 +76,16 @@ function Card(props: CardProps) {
         </Styled.CardTop>
         {/* Card title */}
         <Styled.CardTitle>{title}</Styled.CardTitle>
-        <div>
-          {/* Card description */}
-          <p title={desc}>
-            <AlignLeft />
-          </p>
-        </div>
+        {
+          desc && (
+            <div>
+              {/* Card description */}
+              <p title={desc}>
+                <AlignLeft />
+              </p>
+            </div>
+          )
+        }
         {/* Card footer */}
         <Styled.CardFooter>
           {/* Displaying card date if available */}
