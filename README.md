@@ -1,14 +1,31 @@
-# Trello Board Project
+<img width="1724" alt="Screenshot 2024-02-08 at 7 55 32 PM" src="https://github.com/harman6666/trello-board-instaPro/assets/16717382/dde7fd7e-153a-41fb-85ee-9336b63e8805"># Trello Board Project
 
-This project is a Trello board implementation built using React JS and TypeScript. It allows users to use board with customizable columns and cards, manage tasks, and collaborate efficiently.
+This project is a Trello board implementation built using React JS and TypeScript. It allows users to use the board with customizable columns and cards, manage tasks, and collaborate efficiently.
 It utilizes a system of boards, lists, and cards to represent tasks and their status within a project.
 
+## Folder Architecture
+![Product_folder_arch](https://github.com/harman6666/trello-board-instaPro/assets/16717382/f0f21d3f-b81c-4525-bc28-cef5ffae54ff)
+
+## Screenshots
+![Overall_view_of_trello](https://github.com/harman6666/trello-board-instaPro/assets/16717382/0bda26f1-0c5f-4219-81e1-cc026a0e8a63)
+![Modal_open](https://github.com/harman6666/trello-board-instaPro/assets/16717382/8cd1e10b-f1ac-437c-9cb4-a9127f11c4ca)
+![Modal_open_with_task_checked](https://github.com/harman6666/trello-board-instaPro/assets/16717382/3789ca27-66d2-49d3-b200-f46317591f18)
+![Dragging_component](https://github.com/harman6666/trello-board-instaPro/assets/16717382/925f8d73-ade4-4f8d-872c-acf54b7bae7e)
+![Adding_new_board](https://github.com/harman6666/trello-board-instaPro/assets/16717382/1747fbf8-bfaa-4b5f-a0ef-560bdeb63509)
+
+## Technologies used 🛠️
+- **React JS**
+- **TypeScript**
+- **React-feather:** For using the icons. React-feather has a collection of simply beautiful open-source icons.
+- **React Hooks (useReducer and useContext):** Utilized for state management and context sharing within the application. In a real-world scenario, multiple providers might be employed, and external state management libraries could be integrated for enhanced functionality and scalability.
+- **HTML Drag and Drop:** Leveraged for implementing drag-and-drop functionality. Not used any external library.
+- **CSS-in-JSS:** Styling solution for writing CSS directly in JavaScript files.
 
 ### Components of a Trello Board
-1. **Boards**: A board is the top-level container that represents a project or a specific task. Each board contains lists and cards related to that project. For now, we have just one board to see the details but more can be added later with some change in the code.
+1. **Boards**: A board is a top-level container representing a project or a specific task. Each board contains lists and cards related to that project. For now, we have just one board to see the details but more can be added later with some changes in the code.
 2. **Lists**: Lists are vertical columns within a board that represent different stages or categories of tasks. For example, lists could represent stages like "To Do", "In Progress", "Testing", and "Done".
 3. **Cards**: Cards are individual tasks or items within lists. They can contain information such as task descriptions, due dates, labels, attachments, and comments. Cards can be moved between lists to represent changes in their status or progress.
-3. **Card Modal**: Card Modal is a modal which opens when the user clicks on any available card. There are multiple actions which user can perform on the modal to update the card as per the need/requirement.
+3. **Card Modal**: A Card Modal is a modal that opens when the user clicks on any available card. The user can perform multiple actions on the modal to update the card as per the need/requirement.
 
 ## Features
 ### Done Items/Features
@@ -29,15 +46,7 @@ It utilizes a system of boards, lists, and cards to represent tasks and their st
 - **Create Multi-board Page:** Implement a page where users can manage multiple boards.
 - **Change Background Color/Image:** Allow users to customize the background of their boards with colors or images.
 - **Create Constant Files:** Extract constants into separate files for better maintainability.
-- **Integrate Chat GPT (Extra):** Optionally integrate a chatbot powered by GPT for additional functionality. With this, user will get a summarize view of the board when it opens.
-
-## Technologies used 🛠️
-- **React JS**
-- **TypeScript**
-- **React-feather:** For using the icons. React-feather has a collection of simply beautiful open source icons.
-- **React Hooks (useReducer and useContext):** Utilized for state management and context sharing within the application. In a real-world scenario, multiple providers might be employed, and external state management libraries could be integrated for enhanced functionality and scalability.
-- **HTML Drag and Drop:** Leveraged for implementing drag-and-drop functionality. Not used any external library.
-- **CSS-in-JSS:** Styling solution for writing CSS directly in JavaScript files.
+- **Integrate Chat GPT (Extra):** Optionally integrate a chatbot powered by GPT for additional functionality. With this, the user will get a summarized view of the board when it opens.
 
 ## Getting Started
 To run the project locally, follow these steps:
