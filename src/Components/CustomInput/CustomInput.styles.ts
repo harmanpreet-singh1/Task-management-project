@@ -15,6 +15,7 @@ const CustomInputEditForm = styled.form`
     margin: 0px 0px 0.5rem;
     padding: 0.5rem;
     font-family: Roboto, sans-serif;
+    min-height: 6rem;
     font-size: 0.875rem;
     color: rgb(64, 66, 75);
     line-height: 1.2rem;

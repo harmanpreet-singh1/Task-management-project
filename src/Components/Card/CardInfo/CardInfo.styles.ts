@@ -16,7 +16,7 @@ const CardInfoBox = styled.div`
   gap: 10px;
   .card-description {
     width: 100%;
-    min-height: 5rem;
+    min-height: 6rem;
     font-size: 0.875rem;
     margin-bottom: 5px;
     background-color: #eee;
