@@ -34,11 +34,11 @@ export const ApiMockResponse: IList[] = [
       },
       {
         id: 1651319552452.593,
-        title: "Integrate chat GPT (Extra)",
-        labels: [{ color: "#1ebffu", text: "Chat GPT" }],
+        title: "Unit Testing",
+        labels: [{ color: "#8da324", text: "Testing" }],
         date: "",
         tasks: [],
-        desc: "Integrate chat GPT for summarize the dashboard list"
+        desc: "Unit testing is very important in terms of the maintanibility of the code."
       },
     ],
   },

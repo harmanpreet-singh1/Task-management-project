@@ -1,4 +1,4 @@
-import { X } from "react-feather";
+import React, { X } from "react-feather";
 import { ILabel } from "../../Interfaces";
 
 // Interface defining props for the Chip component

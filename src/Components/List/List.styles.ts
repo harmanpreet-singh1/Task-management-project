@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 // Styled component for the list container
-const ListContainer = styled.div`
+const ListContainer = styled.li`
   min-width: 280px;
   width: 280px;
   flex-basis: 290px;
@@ -13,7 +13,7 @@ const ListContainer = styled.div`
 const ListInner = styled.div`
   background-color: rgb(223 227 230 / 55%);
   padding: 8px;
-  border-radius: 10px;
+  border-radius: 5px;
 `;
 
 const ListHeader = styled.div`
@@ -36,6 +36,17 @@ const ListHeaderTitle = styled.div`
   }
 `;
 
+const ListHeaderTitleButton = styled.div`
+  .list-header-text {
+    padding: 6px 12px;
+    background-color: transparent;
+    font-size: 1.2rem;
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+`;
+
 const ListHeaderTitleMore = styled.div`
   cursor: pointer;
   position: relative;
@@ -46,7 +57,7 @@ const ListDropdownItem = styled.p`
   cursor: pointer;
 `;
 
-const ListCards = styled.div`
+const ListCards = styled.ul`
   background-color: #f8f8f8;
   padding: 10px;
   border-radius: 5px;
@@ -57,12 +68,32 @@ const ListCards = styled.div`
   overflow-y: auto;
 `;
 
+const AddCardComponent = styled.div`
+  .list-add-card {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    text-align: center;
+    padding: 10px 12px;
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+`;
+
 export {
   ListContainer,
   ListInner,
   ListHeader,
   ListHeaderTitle,
+  ListHeaderTitleButton,
   ListHeaderTitleMore,
   ListDropdownItem,
   ListCards,
+  AddCardComponent,
 };

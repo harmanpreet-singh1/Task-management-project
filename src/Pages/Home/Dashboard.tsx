@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Clipboard } from "react-feather";
 import List from "../../Components/List/List";
 import { useAppState } from '../../Hooks/useAppState';
@@ -84,6 +84,8 @@ function Dashboard() {
                 placeholder="Enter Board Name"
                 text="Add Board"
                 buttonText="Add Board"
+                isInputElement={true}
+                inputType={"button"}
                 resetVal={true}
                 onSubmit={(name) => dispatch({ type: 'ADD_LIST', payload: name })}
               />
