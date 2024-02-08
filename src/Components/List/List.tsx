@@ -41,7 +41,7 @@ function List(props: ListProps) {
                 displayClass={"list-header-text"}
                 DisplayHtmlElementName={"h2"}
                 elementRole={"textbox"}
-                onSubmit={(title) => dispatch({ type: 'UPDATE_LIST_TITLE', payload: {boardId: list?.id, title} })}
+                onSubmit={(title: string) => dispatch({ type: 'UPDATE_LIST_TITLE', payload: {boardId: list?.id, title} })}
                 showAddButton={false}
               />
             </Styled.ListHeaderTitleButton>
@@ -49,7 +49,7 @@ function List(props: ListProps) {
             <span className="list-card-number">{list?.cards?.length || 0}</span>
           </Styled.ListHeaderTitle>
           <Styled.ListHeaderTitleMore
-            onClick={(event) => {
+            onClick={(event: React.MouseEvent<HTMLInputElement>) => {
               event.stopPropagation();
               setShowDropdown(true);
             }}
