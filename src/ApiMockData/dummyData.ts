@@ -17,7 +17,7 @@ export const ApiMockResponse: IList[] = [
         desc: "Mult-board page is important so user can create new boards and even move lists between them. Also we need to introduce routes when introduce the multi-page concept.",
       },
       {
-        id: 1651319568365.593,
+        id: 1651319567985.593,
         title: "Change background color/image",
         labels: [{ color: "#1ebffa", text: "Frontend" }],
         date: "",
@@ -25,7 +25,7 @@ export const ApiMockResponse: IList[] = [
         desc: "This would be a good addition to the application as it will give us the summary of all the dashboard list."
       },
       {
-        id: 1651319568365.593,
+        id: 1651319523523.593,
         title: "Create constant files",
         labels: [{ color: "#1ebffu", text: "Constant" }],
         date: "",
@@ -33,7 +33,7 @@ export const ApiMockResponse: IList[] = [
         desc: "Constant files are needed and are very important in terms of scalibility and matainability."
       },
       {
-        id: 1651319568365.593,
+        id: 1651319552452.593,
         title: "Integrate chat GPT (Extra)",
         labels: [{ color: "#1ebffu", text: "Chat GPT" }],
         date: "",
@@ -53,6 +53,14 @@ export const ApiMockResponse: IList[] = [
         date: "",
         tasks: [],
         desc: "For now, drag-drop is working fine except when the the list is empty."
+      },
+      {
+        id: 16513134345355.5078,
+        title: "Accessibility",
+        labels: [{ color: "#1ebffa", text: "Frontend" }],
+        date: "",
+        tasks: [],
+        desc: "Accessibility is important and shoudl be implimented across the application."
       },
     ],
   },
@@ -84,7 +92,7 @@ export const ApiMockResponse: IList[] = [
         id: 1651319680948.0479,
         title: "Add and label columns",
         labels: [{ color: "#9975bd", text: "Columns" }],
-        date: "2022-02-08",
+        date: "2022-05-04",
         tasks: [
           { id: 1651319820180.9648, completed: true, text: "Add columns" },
           { id: 1651319833779.3252, completed: true, text: "Remove columns" },
@@ -95,7 +103,7 @@ export const ApiMockResponse: IList[] = [
         id: 165132424248.0479,
         title: "Add and edit cards",
         labels: [{ color: "#1ebffa", text: "Cards" }],
-        date: "2022-02-08",
+        date: "2022-05-04",
         tasks: [
           { id: 1651319820180.9648, completed: true, text: "Add Cards" },
           { id: 1651319833779.3252, completed: true, text: "Edit Cards" },
@@ -105,7 +113,7 @@ export const ApiMockResponse: IList[] = [
         id: 165131323133.0479,
         title: "Move cards between columns",
         labels: [{ color: "#9975bd", text: "Columns" }],
-        date: "2022-02-08",
+        date: "2022-05-04",
         tasks: [
           { id: 1651319820180.9648, completed: true, text: "Move cards within the same list" },
           { id: 1651319833779.3252, completed: true, text: "Move card in any other list" },
@@ -116,7 +124,7 @@ export const ApiMockResponse: IList[] = [
         id: 1651319642211.0479,
         title: "interactions are intuitive",
         labels: [{ color: "#1ebffa", text: "Interaction" }],
-        date: "2022-02-08",
+        date: "2022-05-04",
         tasks: [
           { id: 1651319820180.9648, completed: true, text: "Cards are draggable" },
           { id: 1651319833779.3252, completed: true, text: "User can see the card moving" },
@@ -126,7 +134,7 @@ export const ApiMockResponse: IList[] = [
         id: 1651312424242.0479,
         title: "Local storage get/set",
         labels: [{ color: "#cf61a1", text: "LocalStorage" }],
-        date: "2022-02-08",
+        date: "2022-05-04",
         tasks: [
           { id: 1651319820180.9648, completed: true, text: "Local storage set" },
           { id: 1651319833779.3252, completed: true, text: "Local storage get" },

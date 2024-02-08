@@ -1,7 +1,6 @@
 {
   "name": "trello-board-insta-pro-demo",
   "version": "0.1.0",
-  "author": "Harmanpreet Singh",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -31,6 +30,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
