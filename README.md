@@ -11,8 +11,6 @@ It utilizes a system of boards, lists, and cards to represent tasks and their st
 
 https://github.com/harman6666/trello-board-instaPro/assets/16717382/913684c7-8e9a-4a1e-9d36-fa48a429cc53
 
-
-
 ## Technologies used 🛠️
 - **React JS**
 - **TypeScript**
@@ -41,12 +39,13 @@ https://github.com/harman6666/trello-board-instaPro/assets/16717382/913684c7-8e9
 
 ### In-Progress
 - **Drag-Drop Whole List:** Currently working on enabling drag-and-drop functionality for the entire list of cards.
+- **Accessibility:** Accessibility is important and should be implemented across the application. Currently, I use all the semantic tags but we can do more like aria-roles, titles, roles, etc.
 
 ### To-Do
 - **Create Multi-board Page:** Implement a page where users can manage multiple boards.
 - **Change Background Color/Image:** Allow users to customize the background of their boards with colors or images.
 - **Create Constant Files:** Extract constants into separate files for better maintainability.
-- **Integrate Chat GPT (Extra):** Optionally integrate a chatbot powered by GPT for additional functionality. With this, the user will get a summarized view of the board when it opens.
+- **Unit Testing:** Unit testing is very important in terms of the maintainability of the code.
 
 ## Getting Started
 To run the project locally, follow these steps:
