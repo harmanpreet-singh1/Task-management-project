@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Calendar, CheckSquare, List, Tag, Trash } from "react-feather";
 import * as Styled from "./CardInfo.styles";
-import { useAppState } from '../../../Hooks/useAppState';
+import { useAppState } from '../../../Hooks1/useAppState';
 import { colorsList } from "../../../Helper/Util";
 import Modal from "../../Modal/Modal";
 import CustomInput from "../../CustomInput/CustomInput";

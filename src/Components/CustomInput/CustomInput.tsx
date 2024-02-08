@@ -6,7 +6,7 @@ import {
   CustomInputEditFooter,
   DisplayHtmlElement,
 } from "./CustomInput.styles";
-import useClickOutside from "../../Hooks/useClickOutside";
+import useClickOutside from "../../Hooks1/useClickOutside";
 
 // Interface defining props for the CustomInput component
 interface CustomInputProps {
