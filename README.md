@@ -51,7 +51,7 @@ https://github.com/harman6666/trello-board-instaPro/assets/16717382/913684c7-8e9
 To run the project locally, follow these steps:
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Install dependencies using `npm install`.
-4. Start the development server using `npm run start`.
+3. Install dependencies using `yarn install`.
+4. Start the development server using `yarn run start`.
 5. Open your browser and navigate to `http://localhost:3000` to view the application.
 
