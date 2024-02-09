@@ -14,7 +14,8 @@ It utilizes a system of boards, lists, and cards to represent tasks and their st
 ![Trello view](./src/Assets/images/Overall_view_of_trello.png)
 
 Video: 
-https://github.com/harman6666/trello-board-instaPro/assets/16717382/913684c7-8e9a-4a1e-9d36-fa48a429cc53
+https://github.com/harman6666/trello-board-instaPro/assets/16717382/3076e989-4d6b-4923-a5b2-8dc753d22953
+
 
 ## Technologies used 🛠️
 - **React JS**
