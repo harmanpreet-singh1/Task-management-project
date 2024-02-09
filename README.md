@@ -13,7 +13,8 @@ It utilizes a system of boards, lists, and cards to represent tasks and their st
 ## Screenshots and Video
 ![Trello view](./src/Assets/images/Overall_view_of_trello.png)
 
-Video: 
+Video:
+
 https://github.com/harman6666/trello-board-instaPro/assets/16717382/3076e989-4d6b-4923-a5b2-8dc753d22953
 
 
