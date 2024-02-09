@@ -13,7 +13,7 @@ It utilizes a system of boards, lists, and cards to represent tasks and their st
 ## Screenshots and Video
 ![Trello view](./src/Assets/images/Overall_view_of_trello.png)
 
-[![Trello Demo Video](./src/Assets/images/Overall_view_of_trello.png)](./src/Assets/videos/Trello_demo.mov)
+<video src="./src/Assets/videos/Trello_demo.mov" width="320" height="240" controls></video>
 
 ## Technologies used 🛠️
 - **React JS**
