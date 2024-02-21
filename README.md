@@ -3,7 +3,7 @@
 This project is a Trello board implementation built using React JS and TypeScript. It allows users to use the board with customizable columns and cards, manage tasks, and collaborate efficiently.
 It utilizes a system of boards, lists, and cards to represent tasks and their status within a project.
 
-#### Live Demo: [Trello board](https://trello-board-instapro.netlify.app)
+#### Live Demo: [Trello board](https://trello-board-demo.netlify.app)
 
 #### Git link for private repo: [Git Front Link](https://gitfront.io/r/harman6666/PG7U237vShvs/trello-board-instaPro/)
 
