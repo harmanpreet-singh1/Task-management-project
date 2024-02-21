@@ -1,4 +1,4 @@
-# Trello Board Project
+# Task Management Trello Board Project
 
 This project is a Trello board implementation built using React JS and TypeScript. It allows users to use the board with customizable columns and cards, manage tasks, and collaborate efficiently.
 It utilizes a system of boards, lists, and cards to represent tasks and their status within a project.
